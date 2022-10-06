@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+font-family: Didact Gothic, sans-serif;
+text-align: center;
+}
+
+.frontphoto {
+    width: auto;
+    height: 240;
+}
+
+.dogpaw {
+    width: 20px;
+    height: auto;
+}
+
+h3 {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(169, 223, 255, 0.992);
+}
+
+li {
+    margin: 3px 15px ;
+}
+
+li a {
+    color:navy;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(245, 184, 238);
+}
+
+@media (min-width: 1024px) {
+
+.frontphoto {
+    width: 300px;
+    height: auto;
+}
+
+}
